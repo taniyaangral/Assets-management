@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import {NewsContextProvider} from "./NewsContext";
-import News from "./components/News";
+import {ContextProvider} from "./Context";
+import Assets from "./components/Assets";
 
 function App() {
   return (
-    <NewsContextProvider>
-      <News />
-    </NewsContextProvider>
+    <ContextProvider>
+      <Assets/>
+    </ContextProvider>
   );
 }
 
